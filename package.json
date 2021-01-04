@@ -1,0 +1,40 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "react-dev": "webpack -d --watch",
+    "start": "live-server ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/runtime": "^7.12.5",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.5.3",
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "google-search-results-nodejs": "^2.0.1",
+    "nodemon": "^2.0.6",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.12.0",
+    "request": "^2.88.2"
+  }
+}
